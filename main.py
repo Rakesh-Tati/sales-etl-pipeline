@@ -9,8 +9,8 @@ try:
     if df is not None and not df.empty:
         # Step 2: Transform data
         transformed_data = transform_data(df)
-        transformed_data.to_csv("data/processed/transformed_data.csv", index=False)  # Save transformed data to CSV
-        transformed_data.to_json("data/processed/transformed_data.json", orient="records", lines=True)  # Save transformed data to JSON
+        transformed_data.to_csv("data/processed/processed.csv", index=False)  # Save transformed data to CSV
+        transformed_data.to_json("data/processed/processed.json", orient="records", lines=True)  # Save transformed data to JSON
         
         if transformed_data is not None and not transformed_data.empty:
             # Step 3: Load data into database
