@@ -18,4 +18,3 @@ try:
             print("Pipeline completed successfully")
 except Exception as e:
     print(f"An error occurred in the main process: {e}")
-git
