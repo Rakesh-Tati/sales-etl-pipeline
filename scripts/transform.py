@@ -1,13 +1,23 @@
 import pandas as pd
+import logging
+from scripts import logging_config
+
 
 def transform_data(df):
     try:
-        # Example transformation: Remove rows with missing values
+        logging.info("Transformation started")
+
         df.dropna(inplace=True)
+        logging.info("null values removed")
+
         df.drop_duplicates(inplace=True)
-        df["bonus"] = df["amount"] * 2  # Example of creating a new column
-        print("Data successfully transformed")
+        logging.info("Duplicates removed")
+
+        df["bonus"] = df["amount"] * 1.10 # Add a bonus column with a 10% increase
+        logging.info("Bonus column created")
+
+        logging.info("Transformation completed successfully")
         return df
     except Exception as e:
-        print(f"An error occurred while transforming data: {e}")
+        logging.error(f"Transformation error: {e}")
         return None

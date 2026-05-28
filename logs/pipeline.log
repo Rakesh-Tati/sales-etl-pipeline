@@ -1,0 +1,84 @@
+INFO:root:Starting ETL pipeline
+INFO:root:Starting ETL pipeline
+INFO:root:Starting ETL pipeline
+INFO:root:Starting ETL pipeline
+INFO:root:Starting ETL pipeline
+INFO:root:Starting ETL pipeline
+INFO:root:Starting ETL pipeline
+INFO:root:Starting ETL pipeline
+INFO:root:Starting ETL pipeline
+INFO:root:Starting ETL pipeline
+INFO:root:Starting ETL pipeline
+INFO:root:Starting ETL pipeline
+INFO:root:Starting ETL pipeline
+INFO:root:Starting ETL pipeline
+INFO:root:Starting ETL pipeline
+INFO:root:Starting ETL pipeline
+INFO:root:Starting ETL pipeline
+INFO:root:Starting ETL pipeline
+INFO:root:Starting ETL pipeline
+2026-05-28 16:04:06,877 - INFO - Starting ETL pipeline
+2026-05-28 16:04:06,917 - INFO - Data extracted from CSV file
+2026-05-28 16:04:06,938 - INFO - Incremental data extracted successfully
+2026-05-28 16:04:06,938 - INFO - Transformation started
+2026-05-28 16:04:06,939 - INFO - null values removed
+2026-05-28 16:04:06,943 - INFO - Duplicates removed
+2026-05-28 16:04:06,944 - INFO - Bonus column created
+2026-05-28 16:04:06,944 - INFO - Transformation completed successfully
+2026-05-28 16:04:07,013 - INFO - Loading data into database
+2026-05-28 16:04:07,264 - INFO - Data loaded successfully
+2026-05-28 16:04:07,269 - INFO - Pipeline completed successfully
+2026-05-28 16:06:20,829 - INFO - Starting ETL pipeline
+2026-05-28 16:06:20,853 - INFO - Data extracted from CSV file
+2026-05-28 16:06:20,863 - INFO - No new data to extract
+2026-05-28 16:07:14,205 - INFO - Starting ETL pipeline
+2026-05-28 16:07:14,226 - INFO - Data extracted from CSV file
+2026-05-28 16:07:14,229 - INFO - No new data to extract
+2026-05-28 16:08:22,578 - INFO - Starting ETL pipeline
+2026-05-28 16:08:22,596 - INFO - Data extracted from CSV file
+2026-05-28 16:08:22,599 - INFO - No new data to extract
+2026-05-28 16:10:10,434 - INFO - Starting ETL pipeline
+2026-05-28 16:10:10,466 - INFO - Data extracted from CSV file
+2026-05-28 16:10:10,473 - INFO - No new data to extract
+2026-05-28 16:10:35,381 - INFO - Starting ETL pipeline
+2026-05-28 16:10:35,422 - INFO - Data extracted from CSV file
+2026-05-28 16:10:35,430 - INFO - No new data to extract
+2026-05-28 16:12:03,117 - INFO - Starting ETL pipeline
+2026-05-28 16:12:03,148 - INFO - Data extracted from CSV file
+2026-05-28 16:12:03,156 - INFO - Incremental data extracted successfully
+2026-05-28 16:12:19,664 - INFO - Transformation started
+2026-05-28 16:12:19,681 - INFO - null values removed
+2026-05-28 16:12:19,692 - INFO - Duplicates removed
+2026-05-28 16:12:19,697 - INFO - Bonus column created
+2026-05-28 16:12:19,697 - INFO - Transformation completed successfully
+2026-05-28 16:12:25,204 - INFO - Loading data into database
+2026-05-28 16:12:25,520 - INFO - Data loaded successfully
+2026-05-28 16:12:28,328 - INFO - Pipeline completed successfully
+2026-05-28 16:12:59,344 - INFO - Starting ETL pipeline
+2026-05-28 16:12:59,384 - INFO - Data extracted from CSV file
+2026-05-28 16:12:59,393 - INFO - Incremental data extracted successfully
+2026-05-28 16:13:19,346 - INFO - Transformation started
+2026-05-28 16:13:29,659 - INFO - null values removed
+2026-05-28 16:13:31,145 - INFO - Duplicates removed
+2026-05-28 16:13:32,592 - INFO - Bonus column created
+2026-05-28 16:13:33,075 - INFO - Transformation completed successfully
+2026-05-28 16:14:22,746 - INFO - Loading data into database
+2026-05-28 16:14:30,876 - INFO - Data loaded successfully
+2026-05-28 16:14:37,298 - INFO - Pipeline completed successfully
+2026-05-28 16:51:48,083 - INFO - Starting ETL pipeline
+2026-05-28 16:51:48,117 - INFO - Data extracted from CSV file
+2026-05-28 16:51:48,124 - INFO - No new records found
+2026-05-28 16:53:16,124 - INFO - Starting ETL pipeline
+2026-05-28 16:53:16,143 - INFO - Data extracted from CSV file
+2026-05-28 16:53:16,148 - INFO - Incremental data extracted successfully
+2026-05-28 16:53:16,148 - INFO - Transformation started
+2026-05-28 16:53:16,150 - INFO - null values removed
+2026-05-28 16:53:16,152 - INFO - Duplicates removed
+2026-05-28 16:53:16,153 - INFO - Bonus column created
+2026-05-28 16:53:16,153 - INFO - Transformation completed successfully
+2026-05-28 16:53:16,184 - INFO - Loading data into database
+2026-05-28 16:53:16,277 - INFO - Data loaded successfully
+2026-05-28 16:53:16,279 - INFO - Pipeline completed successfully
+2026-05-28 17:21:46,400 - INFO - Starting ETL pipeline
+2026-05-28 17:21:46,429 - INFO - Data extracted from CSV file
+2026-05-28 17:21:46,434 - INFO - No new records found

@@ -1,6 +1,0 @@
-order_id,customer_name,category,amount,updated_at,bonus
-1,Rakesh,Electronics,50000,01-05-2026,100000
-2,Ram,Fashion,3000,02-05-2026,6000
-3,Sai,Electronics,45000,03-05-2026,90000
-4,Kiran,Grocery,2000,04-05-2026,4000
-5,Ravi,Fashion,7000,05-05-2026,14000

@@ -1,3 +1,4 @@
+# Total Sales Per Category
 SELECT
 	CATEGORY,
 	SUM(AMOUNT) AS TOTAL_SALES
@@ -6,6 +7,7 @@ FROM
 GROUP BY
 	CATEGORY;
 
+# Total Sales Per Category
 SELECT
 	CUSTOMER_NAME,
 	SUM(AMOUNT) AS TOTAL_AMOUNT
@@ -15,3 +17,20 @@ GROUP BY
 	CUSTOMER_NAME
 ORDER BY
 	TOTAL_AMOUNT DESC;
+
+# Total Sales Per Month
+SELECT
+	month,
+	SUM(amount)
+FROM
+	sales
+GROUP BY
+	month;
+
+# INCREMENTAL LOADING
+SELECT
+	*
+FROM
+	sales
+WHERE
+	updated_at > '2026-05-06';
