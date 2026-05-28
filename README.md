@@ -1,10 +1,20 @@
-# Sales ETL Pipeline
+# Sales ETL Pipeline 🚀
 
-## 📌 Project Overview
+A production-style ETL pipeline project built using Python, pandas, SQL, and SQLite with incremental loading and logging support.
 
-This project is an end-to-end ETL pipeline built using Python, pandas, SQL, and SQLite.
+---
 
-The pipeline extracts sales data from CSV/API sources, performs data cleaning and transformation, and loads the processed data into a SQL database for analytics.
+# 📌 Project Overview
+
+This project is an end-to-end ETL pipeline that extracts sales data from CSV/API sources, transforms and cleans the data using pandas, and loads the processed data into a SQLite database for analytics.
+
+The project also includes:
+
+* Incremental Loading
+* Logging
+* Error Handling
+* SQL Analytics
+* Processed CSV & JSON generation
 
 ---
 
@@ -14,6 +24,7 @@ The pipeline extracts sales data from CSV/API sources, performs data cleaning an
 * pandas
 * SQL
 * SQLite
+* SQLAlchemy
 * requests
 * Logging
 * CSV / JSON
@@ -45,13 +56,18 @@ sales-etl-pipeline/
 │
 ├── data/
 │   ├── raw/
+│   │   └── sales.csv
+│   │
 │   └── processed/
+│       ├── processed_sales.csv
+│       └── processed_sales.json
 │
 ├── scripts/
 │   ├── extract.py
 │   ├── transform.py
 │   ├── load.py
-│   └── api_extract.py
+│   ├── api_extract.py
+│   └── logging_config.py
 │
 ├── sql/
 │   ├── schema.sql
@@ -60,8 +76,15 @@ sales-etl-pipeline/
 ├── logs/
 │   └── pipeline.log
 │
+├── screenshots/
+│   ├── pipeline_output.png
+│   ├── sql_query.png
+│   ├── folder_structure.png
+│   └── transformed_data.png
+│
 ├── README.md
 ├── requirements.txt
+├── watermark.txt
 ├── main.py
 └── sales.db
 ```
@@ -73,12 +96,14 @@ sales-etl-pipeline/
 * ETL Pipeline
 * CSV Data Extraction
 * API Data Extraction
+* Incremental Loading
 * Data Cleaning
 * Null Handling
 * Duplicate Removal
-* SQL Analytics
+* Bonus Calculation
 * Logging
 * Error Handling
+* SQL Analytics
 * Processed CSV & JSON Generation
 
 ---
@@ -160,26 +185,34 @@ python main.py
 
 ![Pipeline Output](screenshots/pipeline_output.png)
 
+---
+
 ## SQL Query Output
 
 ![SQL Query](screenshots/sql_query.png)
+
+---
 
 ## Folder Structure
 
 ![Folder Structure](screenshots/folder_structure.png)
 
-## Transformed data into CSV
+---
 
-![Folder Structure](screenshots/transformed_data.png)
+## Transformed CSV Output
+
+![Transformed Data](screenshots/transformed_data.png)
 
 ---
 
 # 📌 Future Improvements
 
-* Incremental Loading
 * CDC (Change Data Capture)
-* Docker Deployment
 * Airflow Scheduling
+* Docker Deployment
+* Kafka Streaming
+* Cloud Integration
+* dbt Transformations
 
 ---
 
