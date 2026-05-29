@@ -33,7 +33,6 @@ The project also includes:
 
 # 🏗️ Project Architecture
 
-```text
 CSV/API
 ↓
 Extract
@@ -45,13 +44,11 @@ Processed CSV/JSON
 SQLite Database
 ↓
 SQL Analytics
-```
 
 ---
 
 # 📂 Folder Structure
 
-```text
 sales-etl-pipeline/
 │
 ├── data/
@@ -87,7 +84,6 @@ sales-etl-pipeline/
 ├── watermark.txt
 ├── main.py
 └── sales.db
-```
 
 ---
 
