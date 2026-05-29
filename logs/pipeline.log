@@ -100,3 +100,6 @@ INFO:root:Starting ETL pipeline
 2026-05-29 17:07:18,089 - INFO - Starting ETL pipeline
 2026-05-29 17:07:18,140 - INFO - Data extracted from CSV file
 2026-05-29 17:07:18,163 - INFO - No new records found
+2026-05-29 17:25:16,471 - INFO - Starting ETL pipeline
+2026-05-29 17:25:16,494 - INFO - Data extracted from CSV file
+2026-05-29 17:25:16,498 - INFO - No new records found
